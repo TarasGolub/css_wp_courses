@@ -1,34 +1,35 @@
-.menu {
+.menu_container {
     float: right;
 }
 
-.menuUl li {
+.menu_list li {
     list-style-type: none;
     float: left;
     margin-right: 10px;
     text-transform: uppercase;
 }
 
-.footerMenuUl li {
+.footer_menu_list li {
     list-style-type: none;
     float: left;
     margin-right: 10px;
     text-transform: uppercase;
 }
 
-.menuUl li a,
-.footerMenuUl li a {
+.menu_list li a,
+.footer_menu_list li a {
     text-decoration: none;
 }
 
 h1,
-.footerInfo
+h2,
+.footer_info
 {
     clear: both;
 }
 
-.headerLogo {
+.header_logo {
     float: left;
     font-size: 42px;
-    margin-top: -40px;
+    ~margin-top: -40px;
 }

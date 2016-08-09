@@ -32,6 +32,10 @@ body {
     text-transform: uppercase;
 }
 
+.footer {
+    background-color: #5c6bc0;
+}
+
 .menu_list li a,
 .footer_menu_list li a {
     text-decoration: none;
@@ -68,4 +72,12 @@ h2,
     content: "";
     display: block;
     clear: both;
+}
+
+.social {
+    display: inline-block;
+
+}
+.social_conteiner {
+    text-align: center;
 }

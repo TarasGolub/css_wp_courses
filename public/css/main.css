@@ -1,4 +1,20 @@
-.menu_container {
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    /*text-rendering: optimizeLegibility;*/
+}
+
+body {
+    font-family: LatoWeb;
+}
+
+.menu_list {
     float: right;
 }
 
@@ -32,4 +48,24 @@ h2,
     float: left;
     font-size: 42px;
     ~margin-top: -40px;
+}
+
+.archive_list li {
+    list-style-type: none;
+}
+
+.archive_list {
+    float: left;
+    min-width: 40%;
+}
+
+.archive_item:first-of-type {
+    font-size: 150%;
+    color: silver;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }

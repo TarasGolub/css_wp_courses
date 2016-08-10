@@ -58,21 +58,21 @@ h2,
     list-style-type: none;
 }
 
-.archive_list {
-    float: left;
-    min-width: 40%;
-}
+/*.archive_list {*/
+    /*float: left;*/
+    /*min-width: 40%;*/
+/*}*/
 
 .archive_item:first-of-type {
     font-size: 150%;
     color: silver;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+/*.clearfix::after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*clear: both;*/
+/*}*/
 
 .social {
     display: inline-block;
@@ -81,3 +81,8 @@ h2,
 .social_conteiner {
     text-align: center;
 }
+
+.wrapper {
+    min-height: calc(100vh - 80px);
+}
+

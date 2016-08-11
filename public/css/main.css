@@ -11,11 +11,27 @@
 }
 
 body {
-    font-family: LatoWeb;
+    font-family: LatoWeb, sans-serif;
+    text-align: center;
+    background-color: #f7f9fc;
+}
+.header {
+    background-color: #f7f9fc;
+    height: 200px;
+}
+
+
+.page {
+    width: 950px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
 }
 
 .menu_list {
     float: right;
+    font-size: 16pt;
+    margin-top: 89px;
 }
 
 .menu_list li {
@@ -24,21 +40,33 @@ body {
     margin-right: 10px;
     text-transform: uppercase;
 }
+.footer_menu_list {
+    display: inline-block;
+    margin: auto;
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    /*width: 400px;*/
 
+}
 .footer_menu_list li {
     list-style-type: none;
     float: left;
-    margin-right: 10px;
+    margin-right: 40px;
     text-transform: uppercase;
 }
 
 .footer {
     background-color: #5c6bc0;
+    height: 530px;
+    text-align: center;
 }
 
 .menu_list li a,
 .footer_menu_list li a {
     text-decoration: none;
+    color: inherit;
+    font-weight: bold;
 }
 
 h1,
@@ -50,29 +78,53 @@ h2,
 
 .header_logo {
     float: left;
-    font-size: 42px;
-    ~margin-top: -40px;
+    font-size: 42pt;
+    margin-top: 73px;
+    font-style: italic;
+    color: rgb(51, 51, 51);
 }
-
+.footer_logo {
+    margin: 80px auto;
+    font-size: 36pt;
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-style: italic;
+}
+.archive_list {
+    padding-left: 0;
+}
 .archive_list li {
     list-style-type: none;
 }
 
-/*.archive_list {*/
-    /*float: left;*/
-    /*min-width: 40%;*/
-/*}*/
+.archive_list {
+    float: left;
+    width: 50%;
+    margin: 20px 0;
 
+}
+/*.archive_list:nth-child(odd) {*/
+    /*float: left;*/
+    /*!*margin: 10px 40px 10px 0px;*!*/
+    /*width: 50%;*/
+    /*margin: 20px 0;*/
+/*}*/
+/*.archive_list:nth-child(even) {*/
+    /*float: left;*/
+    /*!*margin: 10px 100px;*!*/
+    /*width: 50%;*/
+    /*margin: 20px 0;*/
+/*}*/
 .archive_item:first-of-type {
     font-size: 150%;
     color: silver;
 }
 
-/*.clearfix::after {*/
-    /*content: "";*/
-    /*display: block;*/
-    /*clear: both;*/
-/*}*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 .social {
     display: inline-block;
@@ -80,10 +132,6 @@ h2,
 }
 .social_conteiner {
     text-align: center;
-}
-
-.wrapper {
-    min-height: calc(100vh - 80px);
 }
 
 .input_email, .input_name, .input_subject, .input_message, .button {
@@ -99,7 +147,7 @@ h2,
     min-width: 40%;
 }
 .input_subject, .input_message {
-    width: 100%;
+    width: 90%;
 }
 .button {
     color: #5c6bc0;

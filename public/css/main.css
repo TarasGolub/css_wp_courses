@@ -86,3 +86,22 @@ h2,
     min-height: calc(100vh - 80px);
 }
 
+.input_email, .input_name, .input_subject, .input_message, .button {
+    display: block;
+    margin: 20px 10px;
+    float: left;
+    border: none;
+    background-color: #f7f9fc;
+    height: 50px;
+}
+
+.input_email, .input_name {
+    min-width: 40%;
+}
+.input_subject, .input_message {
+    width: 100%;
+}
+.button {
+    color: #5c6bc0;
+    font-size: 15pt;
+}

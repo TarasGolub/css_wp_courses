@@ -10,23 +10,13 @@
     <!--<script src="../js/bootstrap.min.js"></script>-->
 </head>
 <body>
-<div class="page">
-    <div class="header">
-        <div class="header_logo">
-            <strong>Palo Alto</strong>
-        </div>
 
-        <ul class="menu_list">
-            <li class="menu_item"><a href="index.html" target="_self">Home</a></li>
-            <li class="menu_item"><a href="about.html" target="_self">About</a></li>
-            <li class="menu_item"><a href="archive.html" target="_self">Archive</a></li>
-            <li class="menu_item"><a href="contacts.html" target="_self">Contact</a></li>
-        </ul>
-    </div>
+    <?php include("header.php"); ?>
 
-    <!--i think next will be generate-->
     <div class="search_page">
-        <div class="search_result">
+    <!--i think next will be generate-->
+
+        <div class=" post search_result">
             <div class="search_request">
                 <h1>
                     Search Results for "interesting"
@@ -57,11 +47,9 @@
             </h2>
             <!--replace to css and change class-->
             <p class="coursive">
-                <em>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum explicabo officia placeat, unde
-                    velit vero vitae. Ad adipisci cumque, cupiditate dolorum enim esse officiis reiciendis tempora
-                    temporibus, totam veniam.
-                </em>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum explicabo officia placeat, unde
+                velit vero vitae. Ad adipisci cumque, cupiditate dolorum enim esse officiis reiciendis tempora
+                temporibus, totam veniam.
             </p>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur dicta distinctio dolorum
@@ -103,59 +91,16 @@
 
         <div class="post quote">
             <blockquote>
-                <em>
-                    There is always something left to love.
-                    And if you ain’t learned that, you
-                    ain’t learned nothing.
-                </em>
+                There is always something left to love.
+                And if you ain’t learned that, you
+                ain’t learned nothing.
             </blockquote>
             <cite>— Lorraine Hansberry</cite>
         </div>
-    </div>
-
-    <div class="footer">
-    <div class="footer_logo">
-        <strong>Palo Alto</strong>
-    </div>
-
-    <ul class="footer_menu_list">
-        <li class="footer_menu_item"><a href="index.html" target="_self">Home</a></li>
-        <li class="footer_menu_item"><a href="about.html" target="_self">About</a></li>
-        <li class="footer_menu_item"><a href="archive.html" target="_self">Archive</a></li>
-        <li class="footer_menu_item"><a href="contacts.html" target="_self">Contact</a></li>
-    </ul>
-
-    <div class="footer_info">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate deleniti
-            facere facilis inventore maiores natus numquam tempora unde veniam.
-        </p>
-    </div>
-
-    <div class="rights_reserved">
-        <p>
-            © 2015 - Palo Alto. All Rights Reserved. Designed & Developed
-            by <a href="http://example.com/" target="_blank">Pixel Buddha Team</a>
-        </p>
-    </div>
-
-    <div class="social_conteiner">
-        <div class="social">
-            <a href="http://facebook.com" target="_blank">
-                <img src="../images/facebook.png" alt="facebook" title="facebook">
-            </a>
-            <a href="http://twitter.com" target="_blank">
-                <img src="../images/twitter.png" alt="twitter" title="twitter">
-            </a>
-            <a href="http://instagram.com" target="_blank">
-                <img src="../images/instagram.png" alt="instagram" title="instagram">
-            </a>
-            <a href="http://pinterest.com" target="_blank">
-                <img src="../images/pinterest.png" alt="pinterest" title="pinterest">
-            </a>
-        </div>
-    </div>
 </div>
-</div>
+
+    <?php include("footer.php"); ?>
+
+
 </body>
 </html>

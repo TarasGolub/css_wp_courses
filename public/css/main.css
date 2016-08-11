@@ -15,23 +15,65 @@ body {
     text-align: center;
     background-color: #f7f9fc;
 }
-.header {
-    background-color: #f7f9fc;
-    height: 200px;
-}
 
-
-.page {
+.post {
     width: 950px;
-    margin: 0 auto;
+    margin: 50px auto;
+    /*padding-left: -95px;*/
     text-align: left;
     background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.coursive {
+    font-style: italic;
 }
 
+blockquote {
+    font-size: 40px;
+    font-style: italic;
+}
+
+p,
+h1, h2, h3, h4, h5, h6,
+blockquote, cite,
+form,
+.archive
+{
+    padding: 0 95px;
+}
+
+.header_post {
+    width: 950px;
+    margin: 0 auto;
+    background-color: #f7f9fc;
+    height: 100px;
+}
+
+
+.footer {
+    background-color: #5c6bc0;
+    height: 530px;
+    text-align: center;
+}
+
+.footer_info,
+.rights_reserved {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*MENU SECTION*/
 .menu_list {
     float: right;
-    font-size: 16pt;
-    margin-top: 89px;
+    font-size: 16px;
+    margin-top: 58px;
 }
 
 .menu_list li {
@@ -42,8 +84,8 @@ body {
 }
 .footer_menu_list {
     display: inline-block;
-    margin: auto;
-    font-size: 16pt;
+    margin: 40px auto;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
     font-weight: bold;
     /*width: 400px;*/
@@ -56,75 +98,62 @@ body {
     text-transform: uppercase;
 }
 
-.footer {
-    background-color: #5c6bc0;
-    height: 530px;
-    text-align: center;
-}
-
 .menu_list li a,
 .footer_menu_list li a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
+/*END OF MENU SECTION*/
 
-h1,
-h2,
-.footer_info
-{
-    clear: both;
-}
-
+/*LOGO SECTION*/
 .header_logo {
     float: left;
-    font-size: 42pt;
-    margin-top: 73px;
+    font-size: 42px;
+    margin-top: 42px;
     font-style: italic;
+    font-weight: bold;
     color: rgb(51, 51, 51);
 }
+
 .footer_logo {
-    margin: 80px auto;
-    font-size: 36pt;
+    margin: auto;
+    padding-top: 80px;
+    font-size: 36px;
     color: rgba(0, 0, 0, 0.2);
     font-weight: bold;
     font-style: italic;
 }
+
+.header_logo a,
+.footer_logo a {
+    text-decoration: none;
+    color: inherit;
+}
+/*END OF LOGO SECTION*/
+
+/*ARCHIVE SECTION*/
 .archive_list {
     padding-left: 0;
+    float: left;
+    width: 45%;
+    margin: 20px 0;
 }
+
+.archive_list:nth-child(2n){
+    padding-left: 30px;
+}
+
 .archive_list li {
     list-style-type: none;
 }
 
-.archive_list {
-    float: left;
-    width: 50%;
-    margin: 20px 0;
-
-}
-/*.archive_list:nth-child(odd) {*/
-    /*float: left;*/
-    /*!*margin: 10px 40px 10px 0px;*!*/
-    /*width: 50%;*/
-    /*margin: 20px 0;*/
-/*}*/
-/*.archive_list:nth-child(even) {*/
-    /*float: left;*/
-    /*!*margin: 10px 100px;*!*/
-    /*width: 50%;*/
-    /*margin: 20px 0;*/
-/*}*/
 .archive_item:first-of-type {
     font-size: 150%;
     color: silver;
 }
+/*END OF ARCHIVE SECTION*/
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 .social {
     display: inline-block;
@@ -134,6 +163,7 @@ h2,
     text-align: center;
 }
 
+/*FORM SECTION*/
 .input_email, .input_name, .input_subject, .input_message, .button {
     display: block;
     margin: 20px 10px;
@@ -145,11 +175,21 @@ h2,
 
 .input_email, .input_name {
     min-width: 40%;
+    padding-left: 20px;
 }
 .input_subject, .input_message {
-    width: 90%;
+    width: 100%;
+    padding-left: 20px;
 }
 .button {
     color: #5c6bc0;
-    font-size: 15pt;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+/*END OF FORM SECTION*/
+
+[title="sculpture"] {
+    float: left;
 }

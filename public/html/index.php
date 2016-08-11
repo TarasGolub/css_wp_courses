@@ -10,24 +10,11 @@
     <!--<script src="../js/bootstrap.min.js"></script>-->
 </head>
 <body>
-<div class="page">
-    <div class="header">
-        <div class="header_logo">
-             <strong>Palo Alto</strong>
-        </div>
-
-        <ul class="menu_list">
-            <li class="menu_item"><a href="index.html" target="_self">Home</a></li>
-            <li class="menu_item"><a href="about.html" target="_self">About</a></li>
-            <li class="menu_item"><a href="archive.html" target="_self">Archive</a></li>
-            <li class="menu_item"><a href="contacts.html" target="_self">Contact</a></li>
-        </ul>
-    </div>
-
-    <!--<?php include("../blocks/header.php"); ?>-->
+<!--<div class="page">-->
+    <?php include("header.php"); ?>
 
     <div class="main_page">
-        <div class="post text_post">
+    <div class="post text_post">
             <h2>
                 No difference how many peaks you reach if there was no pleasure in the climb.
             </h2>
@@ -40,7 +27,7 @@
             </p>
         </div>
 
-        <div class="post image_post">
+    <div class="post image_post">
             <img src="../images/img_1.jpg" alt="image mountains " title="Mountains">
             <h2>
                 You know, I'd rather argue with you, then laugh with anyone else.
@@ -67,7 +54,7 @@
             </p>
         </div>
 
-        <div class="post gallery_post">
+    <div class="post gallery_post">
             <div class="gallery">
                 <!--here will be gallery-->
                 <img src="../images/img_2.jpg" alt="gallery" title="gallery">
@@ -82,7 +69,7 @@
             </p>
         </div>
 
-        <div class="post video_post">
+    <div class="post video_post">
             <!--here will be video-->
             <img src="../images/img_3.jpg" alt="video" title="video">
             <!--replace it to css-->
@@ -91,18 +78,18 @@
                 </h2>
         </div>
 
-        <div class="post quote">
+    <div class="post quote">
             <blockquote>
-                <em>
-                    There is always something left to love.
-                    And if you ain’t learned that, you
-                    ain’t learned nothing.
-                </em>
+
+                There is always something left to love.
+                And if you ain’t learned that, you
+                ain’t learned nothing.
+
             </blockquote>
             <cite>— Lorraine Hansberry</cite>
         </div>
 
-        <div class="post audio_post">
+    <div class="post audio_post">
             <!--here will be audio-->
             <img src="../images/img_4.jpg" alt="audio" title="audio">
             <h2>
@@ -115,7 +102,7 @@
             </p>
         </div>
 
-        <div class="post slider_post">
+    <div class="post slider_post">
             <!--here will be slider-->
             <img src="../images/img_5.jpg" alt="gallery" title="gallery">
             <h2>
@@ -143,7 +130,7 @@
             </p>
         </div>
 
-        <div class="post article_post">
+    <div class="post article_post">
             <h2>
                 Democracy means simply the bludgeoning of the people by the people for the people.
             </h2>
@@ -182,52 +169,10 @@
                 totam ullam ut voluptas voluptate voluptatem!
             </p>
         </div>
-    </div>
-
-    <div class="footer">
-    <div class="footer_logo">
-         <strong>Palo Alto</strong>
-    </div>
-
-    <ul class="footer_menu_list">
-        <li class="footer_menu_item"><a href="index.html" target="_self">Home</a></li>
-        <li class="footer_menu_item"><a href="about.html" target="_self">About</a></li>
-        <li class="footer_menu_item"><a href="archive.html" target="_self">Archive</a></li>
-        <li class="footer_menu_item"><a href="contacts.html" target="_self">Contact</a></li>
-    </ul>
-
-    <div class="footer_info">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate deleniti
-            facere facilis inventore maiores natus numquam tempora unde veniam.
-        </p>
-    </div>
-
-    <div class="rights_reserved">
-        <p>
-            © 2015 - Palo Alto. All Rights Reserved. Designed & Developed
-            by <a href="http://example.com/" target="_blank">Pixel Buddha Team</a>
-        </p>
-    </div>
-
-    <div class="social_conteiner">
-    <div class="social">
-        <a href="http://facebook.com" target="_blank">
-            <img src="../images/facebook.png" alt="facebook" title="facebook">
-        </a>
-        <a href="http://twitter.com" target="_blank">
-            <img src="../images/twitter.png" alt="twitter" title="twitter">
-        </a>
-        <a href="http://instagram.com" target="_blank">
-            <img src="../images/instagram.png" alt="instagram" title="instagram">
-        </a>
-        <a href="http://pinterest.com" target="_blank">
-            <img src="../images/pinterest.png" alt="pinterest" title="pinterest">
-        </a>
-    </div>
-    </div>
 </div>
-</div>
+
+    <?php include("footer.php"); ?>
+<!--</div>-->
 </body>
 </html>
 

@@ -164,7 +164,7 @@ form,
 }
 
 /*FORM SECTION*/
-.input_email, .input_name, .input_subject, .input_message, .button {
+.input_email, .input_name, .input_subject, .input_message, .input_facebook, .button {
     display: block;
     margin: 20px 10px;
     float: left;
@@ -177,7 +177,7 @@ form,
     min-width: 40%;
     padding-left: 20px;
 }
-.input_subject, .input_message {
+.input_facebook, .input_subject, .input_message {
     width: 100%;
     padding-left: 20px;
 }

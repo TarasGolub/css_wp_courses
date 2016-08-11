@@ -18,18 +18,23 @@
             Contact Us
         </h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam architecto
-            atque, cumqueqwefd deserunt dignissimos distinctio dolore doloremquesdsdsdsd eligendi illo, ipsam iusto nostrum
-            optio, provident tempora ullam voluptatem. Enim, iusto!
+            Заполните все поля и нажмите на кнопку. <br>
+            Вы увидете подтверждение Вашего воода.<br>
+            Вы тут же сможете воойти на свою страницу в Facebook,
+            даже если введете только идентификатор без домена facebook.com <br>
+            И отправить письмо на свой email с готовой темой и сообщением введенными в форме<br>
+            Удачи!
         </p>
         <!--here will be searching form-->
 
 
-    <form class="contact_form clearfix" id="contact_form" action="#" method="get">
+    <form class="contact_form clearfix" id="contact_form" action="getFormInfo.php" method="get">
             <!--<label for="input_name">Your Name</label>-->
             <input type="text" name="input_name" id="input_name" class="input_name" placeholder="Your Name">
             <!--<label for="input_email">Your Email</label>-->
             <input type="email" name="input_email" id="input_email" class="input_email" placeholder="Email">
+            <input type="text" name="input_facebook" id="input_facebook" class="input_facebook" placeholder="Facebook">
+
             <!--<label for="input_subject">Subject of Your Message</label>-->
             <input type="text" name="input_subject" id="input_subject" class="input_subject" placeholder="Subject">
             <!--<label for="input_message">Enter your message/label>-->

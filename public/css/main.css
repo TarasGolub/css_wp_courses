@@ -12,6 +12,7 @@
 
 body {
     font-family: LatoWeb, sans-serif;
+    font-size: 17px;
     text-align: center;
     background-color: #f7f9fc;
 }
@@ -27,11 +28,16 @@ body {
 }
 .coursive {
     font-style: italic;
+    font-size: 25px;
 }
 
 blockquote {
-    font-size: 40px;
+    font-size: 25px;
     font-style: italic;
+}
+
+h1, h2{
+    font-size: 40px;
 }
 
 p,
@@ -98,12 +104,24 @@ form,
     text-transform: uppercase;
 }
 
-.menu_list li a,
-.footer_menu_list li a {
+.menu_list li a{
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
+.footer_menu_list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu_list li a:hover {
+    color: #bdbdbd;
+}
+.footer_menu_list li a:hover {
+    color: #9da6d9;
+}
+
 /*END OF MENU SECTION*/
 
 /*LOGO SECTION*/
@@ -157,10 +175,13 @@ form,
 
 .social {
     display: inline-block;
-
 }
 .social_conteiner {
     text-align: center;
+}
+.social a {
+    margin: 0 10px;
+
 }
 
 /*FORM SECTION*/
@@ -171,6 +192,7 @@ form,
     border: none;
     background-color: #f7f9fc;
     height: 50px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
 }
 
 .input_email, .input_name {
@@ -188,6 +210,11 @@ form,
     text-transform: uppercase;
     background-color: transparent;
 }
+
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+
 /*END OF FORM SECTION*/
 
 [title="sculpture"] {

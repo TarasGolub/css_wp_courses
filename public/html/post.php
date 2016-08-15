@@ -18,7 +18,7 @@
             Democracy means simply the bludgeoning of the people by the people for the people.
         </h1>
         <img src="../images/img_6.jpg" alt="sculpture" title="sculpture">
-        <p>
+        <p class="top_line">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, cupiditate dicta distinctio explicabo
             id molestiae obcaecati placeat quisquam sint voluptatem? Ab adipisci aperiam at cupiditate, dignissimos
             doloremque dolorum ea, error eum facere fugiat illum labore laboriosam modi nam necessitatibus odio optio

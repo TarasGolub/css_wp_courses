@@ -28,7 +28,7 @@
         <!--here will be searching form-->
 
 
-    <form class="contact_form clearfix" id="contact_form" action="getFormInfo.php" method="get">
+    <form class="contact_form clearfix top_line" id="contact_form" action="getFormInfo.php" method="get">
             <!--<label for="input_name">Your Name</label>-->
             <input type="text" name="input_name" id="input_name" class="input_name" placeholder="Your Name">
             <!--<label for="input_email">Your Email</label>-->

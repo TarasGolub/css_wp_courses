@@ -26,6 +26,14 @@ body {
     padding: 20px 0;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
+/*.footer {*/
+    /*text-align: center;*/
+/*}*/
+/*.footer_info, .rights_reserved {*/
+    /*width: 950px;*/
+    /*margin: 50px auto;*/
+/*}*/
+
 .coursive {
     font-style: italic;
     font-size: 25px;
@@ -38,7 +46,33 @@ blockquote {
 
 h1, h2{
     font-size: 40px;
+    position: relative;
 }
+
+h2::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -25px 0 0 95px;
+    content: attr(data-date);
+    color: rgb(189, 189, 189);
+    font-weight: bold;
+    font-size: 14px;
+    /*line-height: 3.571;*/
+    text-align: left;
+}
+
+.top_line::before{
+    border-bottom: 2px solid rgb(238, 238, 238);
+    display: block;
+    height: 2px;
+    content: '';
+    /*margin-top: 25px;*/
+    margin-bottom: 33px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+}
+
+
 
 p,
 h1, h2, h3, h4, h5, h6,
@@ -59,15 +93,24 @@ form,
 
 .footer {
     background-color: #5c6bc0;
-    height: 530px;
+    height: 500px;
     text-align: center;
 }
 
 .footer_info,
 .rights_reserved {
+    width: 950px;
     text-align: center;
-    margin: 60px 0;
+    margin: 40px auto;
+
 }
+
+.footer .top_line::before{
+    border-bottom: 2px solid #5765b5;
+    box-shadow: none;
+}
+
+
 
 .clearfix::after {
     content: "";
@@ -90,7 +133,7 @@ form,
 }
 .footer_menu_list {
     display: inline-block;
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
     font-weight: bold;
@@ -155,7 +198,7 @@ form,
     padding-left: 0;
     float: left;
     width: 45%;
-    margin: 20px 0;
+    /*margin: 20px 0;*/
 }
 
 .archive_list:nth-child(2n){
@@ -164,11 +207,14 @@ form,
 
 .archive_list li {
     list-style-type: none;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
 
 .archive_item:first-of-type {
-    font-size: 150%;
-    color: silver;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.302);
+    font-weight: bold;
 }
 /*END OF ARCHIVE SECTION*/
 
@@ -200,6 +246,7 @@ form,
     padding-left: 20px;
 }
 .input_facebook, .input_subject, .input_message {
+    box-sizing: border-box;
     width: 100%;
     padding-left: 20px;
 }
@@ -219,4 +266,5 @@ form,
 
 [title="sculpture"] {
     float: left;
+    margin-top: 20px;
 }

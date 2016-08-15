@@ -26,7 +26,7 @@
 
         <!--firstElem will be change with styles-->
 
-        <div class="archive  clearfix">
+        <div class="archive  clearfix top_line">
             <ul class="archive_list">
                 <li class="archive_item">Authors</li>
                 <li class="archive_item">Ryan Killen</li>

@@ -1,23 +1,23 @@
 <div class="footer">
     <div class="footer_logo">
-        <a href="index.php" target="_self">Palo Alto</a>
+        <a href="index.php" >Palo Alto</a>
     </div>
 
     <ul class="footer_menu_list">
-        <li class="footer_menu_item"><a href="index.php" target="_self">Home</a></li>
-        <li class="footer_menu_item"><a href="about.php" target="_self">About</a></li>
-        <li class="footer_menu_item"><a href="archive.php" target="_self">Archive</a></li>
-        <li class="footer_menu_item"><a href="contacts.php" target="_self">Contact</a></li>
+        <li class="footer_menu_item"><a href="index.php" >Home</a></li>
+        <li class="footer_menu_item"><a href="about.php" >About</a></li>
+        <li class="footer_menu_item"><a href="archive.php" >Archive</a></li>
+        <li class="footer_menu_item"><a href="contacts.php" >Contact</a></li>
     </ul>
 
-    <div class="footer_info">
+    <div class="footer_info top_line">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate deleniti
             facere facilis inventore maiores natus numquam tempora unde veniam.
         </p>
     </div>
 
-    <div class="rights_reserved">
+    <div class="rights_reserved top_line">
         <p>
             © 2015 - Palo Alto. All Rights Reserved. Designed & Developed
             by <a href="http://example.com/" target="_blank">Pixel Buddha Team</a>

@@ -25,7 +25,7 @@
             </p>
         </div>
         <div class="about_content">
-            <p>
+            <p class="top_line">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda autem consectetur
                 consequatur, cupiditate dicta dignissimos dolore doloribus dolorum ea enim et fuga labore magni
                 maxime minima molestiae nemo nobis nostrum numquam porro quasi quia quis reprehenderit rerum

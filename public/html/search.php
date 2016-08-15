@@ -28,10 +28,10 @@
         </div>
 
         <div class="post text_post">
-            <h2>
+            <h2 data-date="Sept 08">
                 No difference how many peaks you reach if there was no pleasure in the climb.
             </h2>
-            <p>
+            <p class="top_line">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur aut blanditiis debitis eos
                 excepturi, nemo nisi nobis, officia, sint tenetur vel veritatis vitae? Adipisci consequatur dignissimos
                 ex quia sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur aut blanditiis
@@ -42,11 +42,11 @@
 
         <div class="post image_post">
             <img src="../images/img_1.jpg" alt="mountains" title="mountains">
-            <h2>
+            <h2 data-date="Sept 08">
                 You know, I'd rather argue with you, then laugh with anyone else.
             </h2>
             <!--replace to css and change class-->
-            <p class="coursive">
+            <p class="coursive top_line">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum explicabo officia placeat, unde
                 velit vero vitae. Ad adipisci cumque, cupiditate dolorum enim esse officiis reiciendis tempora
                 temporibus, totam veniam.
@@ -70,10 +70,10 @@
                 <!--here will be gallery-->
                 <img src="../images/img_2.jpg" alt="gallery" title="gallery">
             </div>
-            <h2>
+            <h2 data-date="Sept 08">
                 Everything in the universe has a rhythm, everything dances.
             </h2>
-            <p>
+            <p class="top_line">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae delectus enim expedita
                 nesciunt. Eaque, fugit, ratione? Accusantium autem, eos facere harum illum ipsum neque nisi recusandae
                 reiciendis rem? Nisi.
@@ -84,7 +84,7 @@
             <!--here will be video-->
             <img src="../images/img_3.jpg" alt="vidoe" title="video">
             <!--replace it to css-->
-            <h2>
+            <h2 data-date="Sept 08">
                 As human beings, we have a natural compulsion to fill empty spaces.
             </h2>
         </div>

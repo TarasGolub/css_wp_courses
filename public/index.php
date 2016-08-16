@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS_WP_Courses | Main</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
     <!--<script src="../js/testScript.js"></script>-->
     <!--<script src="../js/bootstrap.min.js"></script>-->
@@ -47,7 +47,7 @@
 
         <article class="post image_post">
             <figure class="post_image">
-                <img src="../images/img_1.jpg" alt="image mountains " title="Mountains">
+                <img src="images/img_1.jpg" alt="image mountains " title="Mountains">
             </figure>
             <header class="post_header">
                 <div class="post_date">
@@ -93,7 +93,7 @@
 
         <article class="post gallery_post">
             <figure class="post_image">
-                <img src="../images/img_2.jpg" alt="gallery" title="gallery" class="no_padd">
+                <img src="images/img_2.jpg" alt="gallery" title="gallery" class="no_padd">
             </figure>
             <header class="post_header">
                 <div class="post_date">
@@ -127,7 +127,7 @@
 
         <article class="post video_post">
             <figure class="post_image">
-                <img src="../images/img_3.jpg" alt="video" title="video" class="no_padd">
+                <img src="images/img_3.jpg" alt="video" title="video" class="no_padd">
             </figure>
             <header class="post_header">
                 <div class="post_date">
@@ -173,7 +173,7 @@
 
         <article class="post audio_post">
             <figure class="post_image">
-                <img src="../images/img_4.jpg" alt="audio" title="audio" class="no_padd">
+                <img src="images/img_4.jpg" alt="audio" title="audio" class="no_padd">
             </figure>
             <header class="post_header">
                 <div class="post_date">
@@ -207,7 +207,7 @@
 
         <article class="post slider_post">
             <figure class="post_image">
-                <img src="../images/img_5.jpg" alt="gallery" title="gallery" class="no_padd">
+                <img src="images/img_5.jpg" alt="gallery" title="gallery" class="no_padd">
             </figure>
             <header class="post_header">
                 <div class="post_date">
@@ -264,7 +264,7 @@
                 </h2>
             </header>
             <figure>
-                <img src="../images/img_6.jpg" alt="sculpture" title="sculpture">
+                <img src="images/img_6.jpg" alt="sculpture" title="sculpture">
             </figure>
             <div class="post_content">
                 <p class="top_line">

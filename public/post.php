@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS_WP_Courses | Main</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
     <!--<script src="../js/testScript.js"></script>-->
     <!--<script src="../js/bootstrap.min.js"></script>-->
@@ -25,7 +25,7 @@
                 </h2>
             </header>
             <figure>
-                <img src="../images/img_6.jpg" alt="sculpture" title="sculpture">
+                <img src="images/img_6.jpg" alt="sculpture" title="sculpture">
             </figure>
             <div class="post_content">
                 <p class="top_line">

@@ -27,16 +27,16 @@
     <div class="social_container">
         <div class="social">
             <a href="http://facebook.com" target="_blank">
-                <img src="../images/facebook.png" alt="facebook" title="facebook">
+                <img src="images/facebook.png" alt="facebook" title="facebook">
             </a>
             <a href="http://twitter.com" target="_blank">
-                <img src="../images/twitter.png" alt="twitter" title="twitter">
+                <img src="images/twitter.png" alt="twitter" title="twitter">
             </a>
             <a href="http://instagram.com" target="_blank">
-                <img src="../images/instagram.png" alt="instagram" title="instagram">
+                <img src="images/instagram.png" alt="instagram" title="instagram">
             </a>
             <a href="http://pinterest.com" target="_blank">
-                <img src="../images/pinterest.png" alt="pinterest" title="pinterest">
+                <img src="images/pinterest.png" alt="pinterest" title="pinterest">
             </a>
         </div>
     </div>

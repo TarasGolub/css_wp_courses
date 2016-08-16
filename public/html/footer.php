@@ -1,14 +1,14 @@
-<div class="footer">
-    <div class="footer_logo">
+<footer class="page_footer">
+    <div class="logo footer_logo">
         <a href="index.php" >Palo Alto</a>
     </div>
 
-    <ul class="footer_menu_list">
-        <li class="footer_menu_item"><a href="index.php" >Home</a></li>
-        <li class="footer_menu_item"><a href="about.php" >About</a></li>
-        <li class="footer_menu_item"><a href="archive.php" >Archive</a></li>
-        <li class="footer_menu_item"><a href="contacts.php" >Contact</a></li>
-    </ul>
+    <nav class="menu footer_menu">
+        <a class="menu footer_menu_item" href="index.php" >Home</a>
+        <a class="menu footer_menu_item" href="about.php" >About</a>
+        <a class="menu footer_menu_item" href="archive.php" >Archive</a>
+        <a class="menu footer_menu_item" href="contacts.php" >Contact</a>
+    </nav>
 
     <div class="footer_info top_line">
         <p>
@@ -24,7 +24,7 @@
         </p>
     </div>
 
-    <div class="social_conteiner">
+    <div class="social_container">
         <div class="social">
             <a href="http://facebook.com" target="_blank">
                 <img src="../images/facebook.png" alt="facebook" title="facebook">
@@ -40,4 +40,4 @@
             </a>
         </div>
     </div>
-</div>
+</footer>

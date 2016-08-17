@@ -24,7 +24,7 @@
             </header>
         </div>
 
-        <div class="searc_resalt">
+        <div class="search_result">
             <article class="post text_post">
                 <header class="post_header">
                     <div class="post_date">
@@ -37,8 +37,8 @@
                         No difference how many peaks you reach if there was no pleasure in the climb.
                     </h2>
                 </header>
-                <div class="post_content">
-                    <p class="top_line">
+                <div class="post_content top_line">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur aut blanditiis debitis eos
                         excepturi, nemo nisi nobis, officia, sint tenetur vel veritatis vitae? Adipisci consequatur dignissimos
                         ex quia sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur aut blanditiis
@@ -73,8 +73,8 @@
                         You know, I'd rather argue with you, then laugh with anyone else.
                     </h2>
                 </header>
-                <div class="post_content">
-                    <p class="coursive top_line">
+                <div class="post_content top_line">
+                    <p class="coursive">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum explicabo officia placeat, unde
                         velit vero vitae. Ad adipisci cumque, cupiditate dolorum enim esse officiis reiciendis tempora
                         temporibus, totam veniam.
@@ -119,8 +119,8 @@
                         Everything in the universe has a rhythm, everything dances.
                     </h2>
                 </header>
-                <div class="post_content">
-                    <p class="top_line">
+                <div class="post_content top_line">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae delectus enim expedita
                         nesciunt. Eaque, fugit, ratione? Accusantium autem, eos facere harum illum ipsum neque nisi recusandae
                         reiciendis rem? Nisi.

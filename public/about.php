@@ -24,8 +24,8 @@
                         A animi corporis eum fugiat ipsam iste neque perferendis praesentium saepe suscipit.
                     </p>
                 </div>
-                <div class="about_content">
-                    <p class="top_line">
+                <div class="about_content top_line">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda autem consectetur
                         consequatur, cupiditate dicta dignissimos dolore doloribus dolorum ea enim et fuga labore magni
                         maxime minima molestiae nemo nobis nostrum numquam porro quasi quia quis reprehenderit rerum

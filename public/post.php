@@ -27,8 +27,8 @@
             <figure>
                 <img src="images/img_6.jpg" alt="sculpture" title="sculpture">
             </figure>
-            <div class="post_content">
-                <p class="top_line">
+            <div class="post_content top_line">
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, cupiditate dicta distinctio explicabo
                     id molestiae obcaecati placeat quisquam sint voluptatem? Ab adipisci aperiam at cupiditate, dignissimos
                     doloremque dolorum ea, error eum facere fugiat illum labore laboriosam modi nam necessitatibus odio optio

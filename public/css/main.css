@@ -331,15 +331,18 @@ a:hover {
         height: 50px;
         box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
     }
-    input:focus {
+    input:focus,
+    textarea:focus {
         outline: none;
         background: #e0fff8;
     }
 
-    input:focus:invalid {
+    input:focus:invalid,
+    textarea:focus:invalid {
         box-shadow: 0 0 5px red;
     }
-    input:valid {
+    input:valid,
+    textarea:valid {
         border: none;
         box-shadow: 0 0 5px green;
     }

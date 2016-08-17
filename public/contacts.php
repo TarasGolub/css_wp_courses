@@ -43,7 +43,6 @@
                                 <span class="green">&#9664;</span> That`s OK!
                             </p>
                         </div>
-
                         <input type="text" name="input_facebook" id="input_facebook"
                                class="input_facebook" placeholder="Facebook" required>
                         <!--<label for="input_subject">Subject of Your Message</label>-->
@@ -51,7 +50,7 @@
                                class="input_subject" placeholder="Subject" required>
                         <!--<label for="input_message">Enter your message/label>-->
                         <textarea name="input_message" id="input_message"
-                                  class="input_message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                  class="input_message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                     </fieldset>
                     <fieldset>
                         <button form="contact_form" class="button" type="submit">Send Message</button>

@@ -5,6 +5,7 @@
     <title>CSS_WP_Courses | Main</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
     <!--<script src="../js/testScript.js"></script>-->
     <!--<script src="../js/bootstrap.min.js"></script>-->

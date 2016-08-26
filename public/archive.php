@@ -23,7 +23,7 @@
                     Aliquid dicta distinctio eum facilis itaque laudantium magni non, optio quasi sed velit vitae
                     voluptate voluptatibus.
                 </p>
-                <div class="archive  clearfix top_line">
+                <div class="archive clearfix top_line">
                     <ul class="archive_list">
                         <li class="archive_item">Authors</li>
                         <li class="archive_item">Ryan Killen</li>

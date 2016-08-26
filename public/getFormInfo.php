@@ -60,21 +60,43 @@
                     </p>
                 <form class="contact_form clearfix top_line" id="contact_form" action="getFormInfo.php" method="get">
                     <fieldset>
-                        <!--<label for="input_name">Your Name</label>-->
-                        <input type="text" name="input_name" id="input_name" class="input_name" placeholder="Your Name">
-                        <!--<label for="input_email">Your Email</label>-->
-                        <input type="email" name="input_email" id="input_email" class="input_email" placeholder="Email">
-                        <input type="text" name="input_facebook" id="input_facebook" class="input_facebook" placeholder="Facebook">
+                        <div class="input_name">
+                            <input type="text" name="input_name" id="input_name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input_email">
+                            <input type="email" name="input_email" id="input_email"
+                                   placeholder="Email" required
+                                   pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                            <div class="validation_message">
+                                <p class="invalid_message">
+                                    <span class="red">&#9664;</span> MyEmail@example.com
+                                </p>
 
-                        <!--<label for="input_subject">Subject of Your Message</label>-->
-                        <input type="text" name="input_subject" id="input_subject" class="input_subject" placeholder="Subject">
-                        <!--<label for="input_message">Enter your message/label>-->
-                        <textarea name="input_message" id="input_message"
-                                  class="input_message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                <p class="valid_massage">
+                                    <span class="green">&#9664;</span> That`s OK!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="input_facebook">
+                            <input type="text" name="input_facebook" id="input_facebook"
+                                   placeholder="Facebook" required>
+                        </div>
+                        <div class="input_subject">
+                            <input type="text" name="input_subject" id="input_subject"
+                                   placeholder="Subject" required>
+                        </div>
+                        <div class="input_message">
+                            <textarea name="input_message" id="input_message"
+                                      cols="30" rows="10" placeholder="Your Message" required></textarea>
+                        </div>
                     </fieldset>
                     <fieldset>
-                        <button form="contact_form" class="button" type="submit">Send Message</button>
-                        <button form="contact_form" class="button" type="reset">Reset</button>
+                        <div class="btn btn_submit">
+                            <button form="contact_form" class="button_submit" type="submit">Send Message</button>
+                        </div>
+                        <div class="btn btn_reset">
+                            <button form="contact_form" class="button_reset" type="reset">Reset</button>
+                        </div>
                     </fieldset>
                 </form>
             </div>

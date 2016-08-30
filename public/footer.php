@@ -5,10 +5,10 @@
         </div>
 
         <nav class="menu footer_menu clearfix row">
-            <a class="menu footer_menu_item col xs-12 s-12 m-pull-2 m-2 l-pull-4 l-1" href="index.php" >Home</a>
-            <a class="menu footer_menu_item col xs-12 s-12 m-pull-2 m-2 l-pull-4 l-1" href="about.php" >About</a>
-            <a class="menu footer_menu_item col xs-12 s-12 m-pull-2 m-2 l-pull-4 l-1" href="archive.php" >Archive</a>
-            <a class="menu footer_menu_item col xs-12 s-12 m-pull-2 m-2 l-pull-4 l-1" href="contacts.php" >Contact</a>
+            <a class="menu footer_menu_item col m-offset-2 m-2 l-offset-4 l-1" href="index.php" >Home</a>
+            <a class="menu footer_menu_item col m-2 l-1" href="about.php" >About</a>
+            <a class="menu footer_menu_item col m-2 l-1" href="archive.php" >Archive</a>
+            <a class="menu footer_menu_item col m-2 l-1" href="contacts.php" >Contact</a>
         </nav>
 
         <div class="row">
@@ -49,3 +49,4 @@
         </div>
     </div>
 </footer>
+</body>

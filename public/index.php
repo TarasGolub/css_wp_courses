@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CSS_WP_Courses | Main</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <!--<script src="../js/testScript.js"></script>-->
-    <!--<script src="../js/bootstrap.min.js"></script>-->
-</head>
-<body>
+
     <?php include("header.php");?>
+
     <main class="main_page">
         <article class="post text_post">
             <header class="post_header">
@@ -207,8 +198,10 @@
         </article>
 
         <article class="post slider_post">
-            <figure class="post_image">
-                <img src="images/img_5.jpg" alt="gallery" title="gallery" class="no_padd">
+            <figure class="post_image slider">
+                <img src="images/img_1.jpg" alt="gallery" title="gallery" class="no_padd slider_left">
+                <img src="images/img_3.jpg" alt="gallery" title="gallery" class="no_padd slider_right">
+                <img src="images/img_5.jpg" alt="gallery" title="gallery" class="no_padd slider_top">
             </figure>
             <header class="post_header">
                 <div class="post_date">
@@ -316,7 +309,8 @@
             </footer>
         </article>
     </main>
+
     <?php include("footer.php"); ?> <!-- include <footer> including <nav> (footer menu) <div> social container-->
-</body>
+
 </html>
 

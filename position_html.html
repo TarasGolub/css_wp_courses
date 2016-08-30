@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+
+        .scene {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            background: none;
+            box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+
+        div {
+            display: inline-block;
+            background: blue;
+        }
+
+        /* горизонтальные элементы */
+        .h {
+            width: 50px;
+            height: 10px;
+        }
+
+        .h3 {
+            width: 40px;
+        }
+
+        /* вертикальные элементы */
+        .v {
+            width: 10px;
+            height: 50px;
+        }
+
+        /* уголки */
+        .corner-top {
+            border: 15px solid blue;
+            border-top-width: 20px;
+            border-bottom-width: 0;
+            border-top-color: transparent;
+            background: none;
+        }
+
+        .corner-bottom {
+            border: 15px solid transparent;
+            border-top-width: 20px;
+            border-bottom-width: 0;
+            border-top-color: blue;
+            background: none;
+        }
+
+        /* лого */
+        .logo {
+            width: 64px;
+            height: 64px;
+            /*background: url('/assets/course10/logo.png');*/
+            background: red;
+        }
+        .v1 {
+            position: absolute;
+            bottom: 40px;
+            left: 20px;
+        }
+        .v2 {
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+        }
+        .h1 {
+            position: absolute;
+            bottom: 60px;
+            left: 20px;
+        }
+        .h2 {
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+        }
+        .v3 {
+            position: absolute;
+            bottom: 40px;
+            left: 100px;
+        }
+        .v4 {
+            position: absolute;
+            bottom: 40px;
+            left: 140px;
+        }
+        .v5 {
+            position: absolute;
+            bottom: 40px;
+            left: 180px;
+        }
+        .corner-top {
+            position: absolute;
+            bottom: 70px;
+            left: 150px;
+        }
+        .corner-bottom {
+            position: absolute;
+            bottom: 50px;
+            left: 150px;
+        }
+        .v6 {
+            position: absolute;
+            bottom: 40px;
+            left: 200px;
+        }
+        .h3 {
+            position: absolute;
+            bottom: 40px;
+            left: 200px;
+        }
+        .logo {
+            position: absolute;
+            top: 80px;
+            left: 87px;
+        }
+    </style>
+</head>
+<body>
+<div class="scene">
+    <div class="h h1"></div>
+    <div class="h h2"></div>
+    <div class="h h3"></div>
+    <div class="v v1"></div>
+    <div class="v v2"></div>
+    <div class="v v3"></div>
+    <div class="v v4"></div>
+    <div class="v v5"></div>
+    <div class="v v6"></div>
+    <div class="corner-top"></div>
+    <div class="corner-bottom"></div>
+    <div class="logo"></div>
+</div>
+
+</body>
+</html>

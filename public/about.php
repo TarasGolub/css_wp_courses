@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CSS_WP_Courses | Main</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <!--<script src="../js/testScript.js"></script>-->
-    <!--<script src="../js/bootstrap.min.js"></script>-->
-    <!--add class="container to body (bootstrap)-->
-</head>
-<body>
+
     <?php include("header.php");?>
     <main class="main_page">
         <article class="post about">
@@ -42,5 +31,5 @@
         </article>
     </main>
     <?php include("footer.php"); ?>
-</body>
+
 </html>

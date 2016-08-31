@@ -1,5 +1,5 @@
 <footer class="page_footer">
-    <div class="conteiner">
+    <div class="container">
         <div class="logo footer_logo">
             <a href="index.php" >Palo Alto</a>
         </div>

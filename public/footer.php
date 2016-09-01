@@ -12,7 +12,7 @@
         </nav>
 
         <div class="row">
-            <div class="footer_info top_line col xs-12 s-12">
+            <div class="footer_info top_line col ">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate deleniti
                     facere facilis inventore maiores natus numquam tempora unde veniam.
@@ -23,7 +23,7 @@
         </div>
 
         <div class="row">
-            <div class="rights_reserved top_line col xs-12 s-12">
+            <div class="rights_reserved top_line col ">
                 <p>
                     © 2015 - Palo Alto. All Rights Reserved. Designed & Developed
                     by <a href="http://example.com/" target="_blank">Pixel Buddha Team</a>
@@ -49,4 +49,10 @@
         </div>
     </div>
 </footer>
+<script src="js/jquery.maphilight.min.js"></script>
+<script src="js/nprogress.js"></script>
+<script type="text/javascript">
+    NProgress.start(); // начать "загрузку"
+    NProgress.done(); // заставить индикатор дойти до конца и пропасть
+</script>
 </body>

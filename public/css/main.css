@@ -1,10 +1,7 @@
 @font-face {
     font-family: 'LatoWeb';
-    src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
-    url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/Lato-Regular.ttf') format('truetype');
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Regular.woff') format('woff'); /* Modern Browsers */
     font-style: normal;
     font-weight: normal;
     /*text-rendering: optimizeLegibility;*/
@@ -51,10 +48,25 @@ a:hover {
     margin: 0;
     width: 100%;
 }
-
-.post_image img {
-    width: 100%;
-}
+    .post_image > img {
+        width: 100%;
+    }
+    figure {
+        position: relative;
+    }
+    .single_image:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: background-color 0.3s ease-out;
+    }
+    .single_image:hover:after {
+        background-color: rgba(0,0,0,0.25);
+    }
 
 .slider {
     position: relative;
@@ -107,15 +119,33 @@ a:hover {
 
 .i_do {
     position: absolute;
-    top: 0;
-    right: 0;
-    margin: -70px -10px 0 0;
-    padding: 10px 15px;
-    font-size: 14px;
-    text-transform: capitalize;
-    color: #ffffff;
-    background-color: rgb(92, 107, 192);
+    top: -70px;
+    right: -20px;
+    height: 30px;
+    background-color: #5c6bc0;
+    text-align: center;
+    box-shadow: 0 0 3px rgba(0,0,0,.25);
+    transition: all 0.2s cubic-bezier(.89,.11,.33,.8);
 }
+    .i_do a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 14px;
+        padding: 10px 15px;
+
+    }
+    .i_do:hover {
+        background-color: #6c79c6;
+        box-shadow: 0 1px 4px rgba(0,0,0,.25);
+        transform: scale(1.2, 1.2);
+    }
+    .i_do:active {
+        background-color: #5360ac;
+    }
 /*END OF POST HEADER SECTION*/
 
 /*POST FOOTER SECTION*/
@@ -127,33 +157,54 @@ a:hover {
     position: absolute;
     left: 95px;
     bottom: 40px;
-    font-size: 21px;
-    font-weight: bold;
-    color: rgb(92, 107, 192);
-    text-transform: uppercase;
 }
+    .read_more a {
+        width: 100%;
+        height: 100%;
+        padding: 20px 30px;
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: bold;
+        color: #5c6bc0;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        transition: border 0.2s ease;
+    }
+    .read_more a:hover {
+        border: 1px solid #ccc;
+    }
+    .read_more a:active {
+        border: 1px solid #5c6bc0;
+    }
 
 .hash_tag_container {
     position: absolute;
     right: 95px;
     bottom: 50px;
 }
+    .hash_tag_item {
+        margin-left: 5px;
+        font-size: 15px;
 
-.hash_tag_item {
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.302);
-    margin-left: 5px;
-}
+    }
+    .hash_tag_item a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.302);
+    }
+    .hash_tag_item a:hover {
+         text-decoration: underline;
+         color: #5c6bc0;
+    }
+    .hash_tag_item a:active {
+        text-decoration: none;
+        color: #5c6bc0;
+    }
+    .video_hash_tag_container {
+        position: absolute;
+        left: 95px;
+        bottom: 50px;
+    }
 
-.hash_tag_item:before {
-    content: '#';
-}
-
-.video_hash_tag_container {
-    position: absolute;
-    left: 95px;
-    bottom: 50px;
-}
 .quote_author {
     position: absolute;
     left: 95px;
@@ -246,28 +297,56 @@ footer .top_line::before{
 
 
 /*MENU SECTION*/
-.menu {
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .header_menu {
     float: right;
     margin-top: 58px;
 }
 
 .header_menu a{
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
     text-decoration: none;
-    color: inherit;
-}
+    color: #333;
+    padding-bottom: 2px;
 
-.header_menu a:hover {
-    color: #bdbdbd;
 }
+    .header_menu a:after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        content: '';
+        visibility: hidden;
+        border-bottom: 3px solid #5c6bc0;
+        transform: scaleX(0);
+        transform-origin: 100% 0;
+        transition: all 0.3s ease-in;
 
+    }
+    .header_menu a.inactive {
+        color: #ccc;
+    }
+    /*.header_menu a:hover {*/
+        /*border-bottom: 3px solid #5c6bc0;*/
+    /*}*/
+    .header_menu a:hover:after {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    .header_menu a:active {
+        color: #5c6bc0;
+    }
+    .header_menu a:active:after {
+     border-bottom: 0;
+    }
 .header_menu_item {
     margin-right: 10px;
+}
+.header_menu_item:last-child {
+    margin-right: 0;
 }
 
 .footer_menu {
@@ -301,11 +380,10 @@ nav {
     }
     .burger_menu {
         position: fixed;
-        top: -500px;
-        width: 200px;
-        /*margin-left: 250px;*/
-        background: #5765b5;
-        transition: top 0.5s;
+        right: -500px;
+        width: 240px;
+        background: #252b4d;
+        transition: right 0.5s;
     }
 
     .burger_nav {
@@ -315,15 +393,20 @@ nav {
     }
 
     .burger_nav-item {
+        padding-left: 40px;
         width: 100%;
-        border-top: 1px solid #4b4d96;
-        border-bottom: 1px solid #2c2e59;
+        font-size: 1em;
+        text-align: left;
+        text-transform: uppercase;
+
+        /*border-top: 1px solid #4b4d96;*/
+        /*border-bottom: 1px solid #2c2e59;*/
     }
 
     .burger_nav-item a {
         display: block;
         padding: 1em 0;
-        background: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(9, 9, 64, 0.65) 100%);
+        /*background: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(9, 9, 64, 0.65) 100%);*/
         color: white;
         font-size: 1.2em;
         text-decoration: none;
@@ -331,8 +414,8 @@ nav {
     }
 
     .burger_nav-item a:hover {
-        color: #fffc0b;
-        background: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(129, 125, 255, 0.65) 100%);
+        color: #a9afdb;
+        /*background: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(129, 125, 255, 0.65) 100%);*/
     }
 
     .label_trigger {
@@ -343,7 +426,7 @@ nav {
         right: 5px;
         width: 32px;
         height: 26px;
-        transition: right 0.5s;
+        /*transition: all 0.1s easy-out;*/
     }
 
     .burger_first {
@@ -383,39 +466,51 @@ nav {
     .dark {
        display: none;
     }
-    .checkbox_trigger:checked ~ .dark {
-        display: block;
-        position: fixed;
-        left: 0;
+    .checkbox_trigger:checked {
+
+    }
+    /*.checkbox_trigger:checked ~ .dark {*/
+        /*display: block;*/
+        /*position: fixed;*/
+        /*left: 0;*/
+        /*right: 0;*/
+        /*top: 0;*/
+        /*bottom: 0;*/
+        /*background: rgba(0,0,0,.25);*/
+        /*z-index: 1;*/
+    /*}*/
+    .checkbox_trigger:checked ~ .burger_menu {
         right: 0;
         top: 0;
         bottom: 0;
-        background: rgba(0,0,0,.25);
-        z-index: 1;
-    }
-    .checkbox_trigger:checked ~ .burger_menu {
-        right: 15px;
-        top: 50px;
         z-index: 2;
     }
 
     .checkbox_trigger:checked + label {
         position: fixed;
-        right: 215px;
+        right: 245px;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: calc(100% - 240px);
+        bottom: 0;
+        background: rgba(0,0,0,.25);
         z-index: 2;
     }
     .checkbox_trigger:checked + label > .burger_first {
-        top: 0;
+        top: 10px;
+        right: 5px;
         height: 4px;
         width: 20px;
-        transition-duration: 0.3s, 0.3s;
+        /*transition-duration: 0.3s, 0.3s;*/
         transform: rotate(45deg);
     }
     .checkbox_trigger:checked + label > .burger_second {
-        top: 0;
+        top: 10px;
+        right: 5px;
         height: 4px;
         width: 20px;
-        transition-duration: 0.3s, 0.3s;
+        /*transition-duration: 0.3s, 0.3s;*/
         transform: rotate(-45deg);
     }
     .checkbox_trigger:checked + label > .burger_third {
@@ -674,5 +769,9 @@ blockquote {
     }
     .burger_container {
         display: block;
+    }
+    .slider_left,
+    .slider_right {
+        display: none;
     }
 }

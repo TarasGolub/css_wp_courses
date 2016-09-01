@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body {
+    /*background-color: rgba(255, 255, 0, .2);*/
+
+    background: linear-gradient(45deg, rgba(255, 255, 0, 0.1) 5%, rgba(255, 255, 0, 0.3) 90%) ;
+}
+.first_block,
+.second_block,
+.third_block,
+.fourth_block {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .4),
+                -1px -1px 2px rgba(255, 255, 255, .9);
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.block:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, .4)
+}
+.yellow {
+    /*background-color: yellow;*/
+    background: linear-gradient(45deg, rgba(255, 255, 0, 0.95), rgba(255, 255, 0, 1) );
+}
+.blue {
+    /*background-color: blue;*/
+    background: linear-gradient(45deg, rgba(0, 0, 255, 0.95), rgba(0, 0, 255, 1) );
+}
+.red {
+     /*background-color: red;*/
+     background: linear-gradient(45deg, rgba(255, 0, 0, 0.95), rgba(255, 0, 0, 1) );
+}
+.green {
+    /*background-color: red;*/
+    background: linear-gradient(45deg, rgba(0, 255, 0, 0.95), rgba(0, 255, 0, 1) );
+}
+.black {
+    /*background-color: red;*/
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1) );
+}
+
+.blocks_container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+/*FIRST*/
+.first_block .blue {
+    top: 50%;
+    left: 50%;
+}
+.first_block .red {
+    top: 100%;
+    left: 100%;
+}
+
+/*SECOND*/
+.second_block .yellow {
+    z-index: 2;
+}
+.second_block .blue {
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+.second_block .red {
+    top: 100%;
+    left: 100%;
+}
+
+/*THIRD*/
+.third_block .blue {
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+.third_block .red {
+    top: 100%;
+    left: 100%;
+}
+
+/*FOURTH*/
+.fourth_block .blue {
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+.fourth_block .red {
+    top: 100%;
+    left: 100%;
+}
+
+/*LIGHTS*/
+.lights_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+.yellow_light,
+.red_light,
+.green_light {
+    width: 70px;
+    height: 70px;
+}
+
+.first_lights {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.first_lights .red_light,
+.first_lights .yellow_light,
+.first_lights .green_light
+{
+    border: 1px solid red;
+    border-radius: 35px;
+    margin: 7px;
+    transition: all 0.5s cubic-bezier(1,.01,.74,1.5);
+}
+
+.first_lights .red_light:hover,
+.first_lights .yellow_light:hover,
+.first_lights .green_light:hover,
+.black .red_light:hover,
+.black .yellow_light:hover,
+.black .green_light:hover{
+    /*box-shadow:  2px 2px 4px white,*/
+                /*-2px -2px 4px white,*/
+                 /*2px 2px 4px white,*/
+                /*-2px 2px 4px white,*/
+                 /*4px 4px 5px orange,*/
+                /*-4px -4px 5px orange,*/
+                 /*4px -4px 5px orange,*/
+                 /*-4px 4px 5px orange;*/
+    box-shadow: 0 0 5px #c5fffa,
+                0 0 15px #00f;
+    border:1px solid #c5fffa;
+    transform: scale(1.1, 1.1);
+    z-index: 2;
+}
+
+.second_lights {
+    margin-top: 40px;
+}
+.black {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin: -22px 0;
+}
+
+.black .red_light,
+.black .yellow_light,
+.black .green_light {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 35px;
+    z-index: 1;
+    transition: all 0.5s cubic-bezier(1, .01, .74, 1.5);
+}

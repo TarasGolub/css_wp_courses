@@ -95,14 +95,17 @@ body {
 }
 
 /*FOURTH*/
+.fourth_block .yellow {
+    z-index: 1;
+}
 .fourth_block .blue {
     top: 50%;
     left: 50%;
-    z-index: -1;
 }
 .fourth_block .red {
     top: 100%;
     left: 100%;
+    z-index: 1;
 }
 
 /*LIGHTS*/

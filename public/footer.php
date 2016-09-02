@@ -3,14 +3,25 @@
         <div class="logo footer_logo">
             <a href="index.php" >Palo Alto</a>
         </div>
-
-        <nav class="menu footer_menu clearfix row">
-            <a class="menu footer_menu_item col m-offset-2 m-2 l-offset-4 l-1" href="index.php" >Home</a>
-            <a class="menu footer_menu_item col m-2 l-1" href="about.php" >About</a>
-            <a class="menu footer_menu_item col m-2 l-1" href="archive.php" >Archive</a>
-            <a class="menu footer_menu_item col m-2 l-1" href="contacts.php" >Contact</a>
-        </nav>
-
+        <div class="menu footer_menu row">
+            <nav>
+                <div class="menu footer_menu_item col m-offset-2 m-2">
+                    <a href="index.php" >Home</a>
+                </div>
+                <div class="menu footer_menu_item col m-2">
+                    <a href="about.php" >About</a>
+                </div>
+                <div class="menu footer_menu_item col m-2">
+                    <a href="archive.php" >Archive</a>
+                </div>
+                <div class="menu footer_menu_item col m-2">
+                    <a href="contacts.php" >Contact</a>
+                </div>
+                <div class="search_icon_footer col m-1">
+                    <a href="search.php"><span class="search_icon">&#128269;</span></a>
+                </div>
+            </nav>
+        </div>
         <div class="row">
             <div class="footer_info top_line col ">
                 <p>
@@ -33,18 +44,26 @@
 
         <div class="social_container">
             <div class="social">
-                <a href="http://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="facebook" title="facebook">
-                </a>
-                <a href="http://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter" title="twitter">
-                </a>
-                <a href="http://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram" title="instagram">
-                </a>
-                <a href="http://pinterest.com" target="_blank">
-                    <img src="images/pinterest.png" alt="pinterest" title="pinterest">
-                </a>
+                <div class="social_item">
+                    <a href="http://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="facebook" title="facebook">
+                    </a>
+                </div>
+                <div class="social_item">
+                    <a href="http://twitter.com" target="_blank">
+                        <img src="images/twitter.png" alt="twitter" title="twitter">
+                    </a>
+                </div>
+                <div class="social_item">
+                    <a href="http://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram" title="instagram">
+                    </a>
+                </div>
+                <div class="social_item">
+                    <a href="http://pinterest.com" target="_blank">
+                        <img src="images/pinterest.png" alt="pinterest" title="pinterest">
+                    </a>
+                </div>
             </div>
         </div>
     </div>

@@ -2,10 +2,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSS_WP_Courses | Main</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/nprogress.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
     <!--    <link rel="stylesheet" href="css/main_addaptive.css">-->
     <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
     <!--<script src="../js/testScript.js"></script>-->
@@ -21,12 +21,26 @@
             <a href="index.php" >Palo Alto</a>
         </div>
 
-        <nav class="menu header_menu">
-            <a class="menu header_menu_item" href="index.php">Home</a>
-            <a class="menu header_menu_item" href="about.php">About</a>
-            <a class="menu header_menu_item" href="archive.php">Archive</a>
-            <a class="menu header_menu_item" href="contacts.php">Contact</a>
-        </nav>
+        <div class="menu header_menu">
+            <nav>
+                <div class="menu header_menu_item">
+                    <a href="index.php">Home</a>
+                </div>
+                <div class="menu header_menu_item">
+                    <a href="about.php">About</a>
+                </div>
+                <div class="menu header_menu_item">
+                    <a href="archive.php">Archive</a>
+                </div>
+                <div class="menu header_menu_item">
+                    <a href="contacts.php">Contact</a>
+                </div>
+                <div class="menu header_menu_item search_icon_header ~inactive_search">
+                    <a href="search.php"><span class="search_icon">&#128269;</span></a>
+                </div>
+            </nav>
+
+        </div>
 
         <div class="burger_container">
             <input type="checkbox" id="menu_trigger" class="checkbox_trigger">

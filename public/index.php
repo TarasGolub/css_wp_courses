@@ -41,6 +41,9 @@
             <article class="post image_post col">
                 <figure class="post_image single_image">
                     <img src="images/img_1.jpg" alt="image mountains " title="Mountains">
+                    <div class="pin_it">
+                        <a href="http://pinterest.com"><img src="images/pin_it.png" alt="pin_it"></a>
+                    </div>
                 </figure>
                 <header class="post_header">
                     <div class="post_date">
@@ -55,9 +58,9 @@
                 </header>
                 <div class="post_content top_line">
                     <p class="coursive">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum explicabo officia placeat, unde
-                            velit vero vitae. Ad adipisci cumque, cupiditate dolorum enim esse officiis reiciendis tempora
-                            temporibus, totam veniam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum explicabo officia placeat, unde
+                        velit vero vitae. Ad adipisci cumque, cupiditate dolorum enim esse officiis reiciendis tempora
+                        temporibus, totam veniam.
                     </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur dicta distinctio dolorum
@@ -85,8 +88,9 @@
             </article>
 
             <article class="post gallery_post col">
-                <figure class="post_image">
+                <figure class="post_image gallery_image">
                     <img src="images/img_2.jpg" alt="gallery" title="gallery" class="no_padd">
+                    <div class="number_of_photo">21</div>
                 </figure>
                 <header class="post_header">
                     <div class="post_date">
@@ -202,7 +206,12 @@
                 <figure class="post_image slider">
                         <img src="images/img_1.jpg" alt="gallery" title="gallery" class="no_padd slider_left">
                         <img src="images/img_3.jpg" alt="gallery" title="gallery" class="no_padd slider_right">
-                        <img src="images/img_5.jpg" alt="gallery" title="gallery" class="no_padd slider_top">
+                        <img src="images/img_5_1.jpg" alt="gallery" title="gallery" class="no_padd slider_top">
+                    <div class="slider_pointer_container">
+                        <div class="slider_pointer"></div>
+                        <div class="slider_pointer slider_pointer_current"></div>
+                        <div class="slider_pointer"></div>
+                    </div>
                 </figure>
                 <header class="post_header">
                     <div class="post_date">
@@ -309,6 +318,12 @@
                 </div>
             </footer>
         </article>
+
+            <div class="page_pointer_container">
+                <div class="page_pointer page_pointer_current">1</div>
+                <div class="page_pointer">2</div>
+                <div class="page_pointer">3</div>
+            </div>
         </div>
     </main>
 

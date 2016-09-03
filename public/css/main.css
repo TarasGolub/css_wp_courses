@@ -16,6 +16,8 @@ body {
     font-size: 17px;
     text-align: center;
     background-color: #f7f9fc;
+    overflow-x: hidden;
+    margin: 20px;
 }
 
 h1, h2 {
@@ -31,7 +33,7 @@ a:hover {
 
 .post {
     float: none;
-    width: 950px;
+    max-width: 950px;
     margin: 50px auto;
     /*padding-left: -95px;*/
     text-align: left;
@@ -39,10 +41,40 @@ a:hover {
     padding: 20px 0;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
+    .post_header,
+    .post_content,
+    .post_footer {
+        padding: 0 95px;
+    }
+    .post .post_content {
+        padding-bottom: 40px;
+    }
 
-.post .post_content {
-    padding-bottom: 40px;
-}
+
+    @media (max-width: 767px) {
+        .post_header,
+        .post_content,
+        .post_footer {
+            padding: 0 50px;
+            max-width: 650px;
+        }
+        body {
+            padding: 15px;
+        }
+    }
+    @media (max-width: 543px) {
+        .post_header,
+        .post_content,
+        .post_footer {
+            padding: 0 25px;
+            /*max-width: 650px;*/
+        }
+        body {
+            padding: 20px;
+        }
+
+    }
+    
 /*IMAGES*/
 .post_image {
     padding: 0;
@@ -314,11 +346,7 @@ a:hover {
 }
 /*END OF POST FOOTER SECTION*/
 
-.post_header,
-.post_content,
-.post_footer {
-    padding: 0 95px;
-}
+
 
 .top_line::before{
     display: block;

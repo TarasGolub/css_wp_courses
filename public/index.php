@@ -3,7 +3,7 @@
 
     <?php include("header.php");?>
 
-    <main class="main_page container">
+    <main class="main_page ">
         <div class="row">
             <article class="post text_post col">
                 <header class="post_header">

@@ -13,37 +13,41 @@
                     voluptate voluptatibus.
                 </p>
                 <div class="archive clearfix top_line">
-                    <ul class="archive_list">
-                        <li class="archive_item">Authors</li>
-                        <li class="archive_item">Ryan Killen</li>
-                        <li class="archive_item">Lisa Steward</li>
-                        <li class="archive_item">James Lambert</li>
-                        <li class="archive_item">Mark Thinker</li>
-                    </ul>
-                    <ul class="archive_list">
-                        <li class="archive_item">Latest Posts</li>
-                        <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia.</li>
-                        <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, inventore.</li>
-                        <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia</li>
-                        <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia</li>
-                        <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia</li>
-                    </ul>
-                    <ul class="archive_list">
-                        <li class="archive_item">Categories</li>
-                        <li class="archive_item">I do Travel</li>
-                        <li class="archive_item">I do Travel</li>
-                        <li class="archive_item">I do Travel</li>
-                        <li class="archive_item">I do Travel</li>
-                        <li class="archive_item">I do Travel</li>
-                        <li class="archive_item">I do Travel</li>
-                        <li class="archive_item">I do Travel</li>
-                    </ul>
-                    <ul class="archive_list">
-                        <li class="archive_item">Posts by Month</li>
-                        <li class="archive_item">August 2015</li>
-                        <li class="archive_item">September 2015</li>
-                        <li class="archive_item">October 2015</li>
-                    </ul>
+                    <div class="archive_first">
+                        <ul class="archive_list">
+                            <li class="archive_item">Authors</li>
+                            <li class="archive_item">Ryan Killen</li>
+                            <li class="archive_item">Lisa Steward</li>
+                            <li class="archive_item">James Lambert</li>
+                            <li class="archive_item">Mark Thinker</li>
+                        </ul>
+                        <ul class="archive_list">
+                            <li class="archive_item">Categories</li>
+                            <li class="archive_item">I do Travel</li>
+                            <li class="archive_item">I do Travel</li>
+                            <li class="archive_item">I do Travel</li>
+                            <li class="archive_item">I do Travel</li>
+                            <li class="archive_item">I do Travel</li>
+                            <li class="archive_item">I do Travel</li>
+                            <li class="archive_item">I do Travel</li>
+                        </ul>
+                    </div>
+                    <div class="archive_second">
+                        <ul class="archive_list">
+                            <li class="archive_item">Latest Posts</li>
+                            <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia.</li>
+                            <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, inventore.</li>
+                            <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia</li>
+                            <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia</li>
+                            <li class="archive_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia</li>
+                        </ul>
+                        <ul class="archive_list">
+                            <li class="archive_item">Posts by Month</li>
+                            <li class="archive_item">August 2015</li>
+                            <li class="archive_item">September 2015</li>
+                            <li class="archive_item">October 2015</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </article>

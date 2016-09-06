@@ -48,10 +48,10 @@
                         </div>
                     </fieldset>
                     <fieldset>
-                        <div class="btn btn_submit">
+                        <div class="btn btn_submit col m-5 l-4">
                             <button form="contact_form" class="button_submit" type="submit">Send Message</button>
                         </div>
-                        <div class="btn btn_reset">
+                        <div class="btn btn_reset col m-5 l-2">
                             <button form="contact_form" class="button_reset" type="reset">Reset</button>
                         </div>
                     </fieldset>

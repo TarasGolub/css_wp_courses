@@ -590,7 +590,9 @@ footer .top_line::before{
         .checkbox_trigger:checked ~ .drop_menu {
             right: 0;
             top: 0;
-            bottom: 0;
+            /*bottom: 0;*/
+            height: 100vh;
+            min-height: 230px;
             z-index: 2;
         }
         .checkbox_trigger:checked + label {
@@ -746,14 +748,18 @@ footer .top_line::before{
 /*END OF LOGO SECTION*/
 
 /*ARCHIVE SECTION*/
-.archive_list {
-    padding-left: 0;
-    float: left;
-    width: 45%;
-    /*margin: 20px 0;*/
+.archive {
+    display: flex;
+    flex-flow: row nowrap;
 }
-    .archive_list:nth-child(2n){
-        padding-left: 30px;
+    .archive_first,
+    .archive_second{
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 1 1 50%;
+    }
+    .archive_list {
+        padding-left: 0;
     }
     .archive_list li {
         list-style-type: none;
@@ -761,6 +767,7 @@ footer .top_line::before{
         margin-bottom: 20px;
     }
     .archive_item:first-of-type {
+        margin-bottom: 30px;
         font-size: 30px;
         color: rgba(0, 0, 0, 0.302);
         font-weight: bold;
@@ -790,28 +797,34 @@ button {
 .input_message,
 .input_facebook,
 .btn {
-    margin: 20px 28px 20px 0;
+    padding: 0;
+    margin: 20px 0 20px 0;
     float: left;
     border: none;
     height: 50px;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
+    .input_message {
+        height: 150px;
+    }
 
 .input_email,
 .input_name {
-    width: 40%;
+    width: 48%;
 }
-
+.input_email{
+    margin-left: 4%;
+}
 .input_facebook,
 .input_subject,
 .input_message {
     width: 100%;
 }
 
-/*.btn_reset,*/
-/*.btn_submit {*/
-/*width: 25%;*/
-/*}*/
+.btn_reset,
+.btn_submit {
+    margin-right: 20px;
+}
 
 .button_submit,
 .button_reset{
@@ -1015,6 +1028,7 @@ blockquote {
     }
     .read_more {
         left: 50px;
+        padding-top: 15px;
     }
     .hash_tag_container {
         float: left;
@@ -1033,6 +1047,16 @@ blockquote {
     }
     [title="sculpture"] {
         float: none;
+        margin-left: 0;
+    }
+    .archive {
+        flex-direction: column;
+    }
+    .input_email,
+    .input_name {
+        width: 100%;
+    }
+    .input_email{
         margin-left: 0;
     }
 }
@@ -1063,8 +1087,16 @@ blockquote {
         transform: translate(-260px);
     }
 }
-
-
+@media (max-height: 500px) {
+    .drop_nav_footer {
+        display: none;
+    }
+}
+@media (max-height: 340px) {
+    .search_form_drop_nav {
+        display: none;
+    }
+}
 /*XL ONLY*/
 @media (min-width: 1200px) {
 

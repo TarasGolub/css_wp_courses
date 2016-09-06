@@ -72,12 +72,13 @@
         </div>
     </div>
 </footer>
-    <script src="public/js/jquery.maphilight.min.js"></script>
+<!--    <script src="public/js/jquery.maphilight.min.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="public/js/nprogress.js"></script>
     <script src="public/js/hideFoot.js"></script>
     <script type="text/javascript">
         NProgress.start(); // начать "загрузку"
         NProgress.done(); // заставить индикатор дойти до конца и пропасть
     </script>
-
+<script src="public/js/slider.js"></script>
 </body>

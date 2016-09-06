@@ -160,12 +160,13 @@ figure {
     position: relative;
     /*height: 530px;*/
 }
-    .slider_top {
-        position: relative;
-    }
     .slider_left,
     .slider_right {
         position: absolute;
+        transition: all 1.5s ease-in;
+    }
+    .slider_top{
+        transition: all 0.3s ease-in;
     }
     .slider_left {
         left: -60px;
@@ -178,6 +179,10 @@ figure {
         height: 430px;
     }
     .slider_top {
+        right: 0;
+        top: 0;
+        height: auto;
+        position: relative;
         z-index: 1;
     }
     .slider_pointer_container {
@@ -1058,6 +1063,14 @@ blockquote {
     }
     .input_email{
         margin-left: 0;
+    }
+    .slider_left,
+    .slider_right {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0;
+        z-index: 0;
     }
 }
 

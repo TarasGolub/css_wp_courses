@@ -217,15 +217,15 @@
             <article class="post slider_post col">
                 <figure class="post_image slider">
                     <img src="public/images/img_1.jpg" alt="gallery" title="gallery"
-                         class="no_padd slider_left hide-xs hide-s hide-m">
+                         class="no_padd slider_left">
                     <img src="public/images/img_3.jpg" alt="gallery" title="gallery"
-                         class="no_padd slider_right hide-xs hide-s hide-m">
+                         class="no_padd slider_right">
                     <img src="public/images/img_5_1.jpg" alt="gallery" title="gallery"
                          class="no_padd slider_top">
                     <div class="slider_pointer_container">
-                        <div class="slider_pointer"></div>
-                        <div class="slider_pointer slider_pointer_current"></div>
-                        <div class="slider_pointer"></div>
+                        <div class="slider_pointer slider_pointer_left"></div>
+                        <div class="slider_pointer slider_pointer_middle slider_pointer_current"></div>
+                        <div class="slider_pointer slider_pointer_right"></div>
                     </div>
                 </figure>
                 <div class="article_content_wrap">

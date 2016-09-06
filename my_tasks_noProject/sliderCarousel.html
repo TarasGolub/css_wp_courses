@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="carousel.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery.carousel-1.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.11/jquery.mousewheel.min.js"></script>
+
+
+</head>
+<body>
+<div class="carousel">
+<div class="slides">
+    <div class="slideItem">
+        <a href="#"> <img src="../public/images/img_1.jpg"> </a>
+        <div class="shadow">
+            <div class="shadowLeft"></div>
+            <div class="shadowMiddle"></div>
+            <div class="shadowRight"></div>
+        </div>
+    </div>
+    <div class="slideItem">
+        <a href="#"> <img src="../public/images/img_2.jpg"> </a>
+        <div class="shadow">
+            <div class="shadowLeft"></div>
+            <div class="shadowMiddle"></div>
+            <div class="shadowRight"></div>
+        </div>
+    </div>
+    <div class="slideItem">
+        <a href="#"> <img src="../public/images/img_3.jpg"> </a>
+        <div class="shadow">
+            <div class="shadowLeft"></div>
+            <div class="shadowMiddle"></div>
+            <div class="shadowRight"></div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            carouselWidth:930,
+        carouselHeight:330,
+        directionNav:true,
+        shadow:true,
+        buttonNav:'bullets'
+    });
+    });
+
+</script>
+</body>
+</html>

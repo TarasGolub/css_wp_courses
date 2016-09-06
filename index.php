@@ -287,7 +287,9 @@
                     </header>
 
                     <div class="post_content top_line">
-
+                        <figure class="sculpture_figure">
+                            <img src="public/images/img_6.jpg" alt="sculpture" title="sculpture">
+                        </figure>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, cupiditate dicta distinctio explicabo
                             id molestiae obcaecati placeat quisquam sint voluptatem? Ab adipisci aperiam at cupiditate, dignissimos

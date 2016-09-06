@@ -3,7 +3,7 @@
 
     <?php include("header.php");?>
     <main class="main_page">
-        <article class="post about">
+        <article class="post post_about">
             <h1 class="post_header about_header">
                     About
             </h1>

@@ -2,7 +2,7 @@
 <html lang="en">
     <?php include("header.php");?>
     <main class="main_page">
-        <article class=" post contact_form">
+        <article class=" post contact_post contact_form">
             <h1 class="post_header contact_header">
                 Contact Us
             </h1>

@@ -215,7 +215,7 @@
             </article>
 
             <article class="post slider_post col">
-                <figure class="post_image slider">
+                <figure id="slider" class="post_image slider">
                     <img src="public/images/img_1.jpg" alt="gallery" title="gallery"
                          class="no_padd slider_left">
                     <img src="public/images/img_3.jpg" alt="gallery" title="gallery"

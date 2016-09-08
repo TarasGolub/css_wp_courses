@@ -53,6 +53,7 @@
                         </div>
                         <div class="btn btn_reset col m-5 l-2">
                             <button form="contact_form" class="button_reset" type="reset">Reset</button>
+
                         </div>
                     </fieldset>
                 </form>

@@ -39,7 +39,7 @@ a {
 }
 
 .post {
-    float: none;
+    /*float: none;*/
     max-width: 950px;
     margin: 50px auto;
     /*padding-left: -95px;*/
@@ -160,30 +160,31 @@ figure {
     position: relative;
     /*height: 530px;*/
 }
-    .slider_left,
+    .slider_left {
+        position: absolute;
+        right: 3%;
+        top: 10%;
+        height: 80%;
+        transition: all 0.5s ease-in;
+    }
     .slider_right {
         position: absolute;
-        transition: all 1.5s ease-in;
-    }
-    .slider_top{
-        transition: all 0.3s ease-in;
-    }
-    .slider_left {
-        left: -60px;
-        top: 50px;
-        height: 430px;
-    }
-    .slider_right {
-        right: -60px;
-        top: 50px;
-        height: 430px;
+        right: -3%;
+        top: 10%;
+        height: 80%;
+        transition: all 0.5s ease-in;
     }
     .slider_top {
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.99),
+                    -1px -1px 1px white;
+
         right: 0;
         top: 0;
         height: auto;
         position: relative;
         z-index: 1;
+        transition: top 1s ease-in, left 1s ease-in, right 1s ease-in;
+        /*transition: all 1s ease-out;*/
     }
     .slider_pointer_container {
         position: absolute;
@@ -322,6 +323,7 @@ figure {
     }
     .video_hash_tag_container {
         float: left;
+        margin-top: 40px;
     }
 
 .quote_author {
@@ -1004,19 +1006,19 @@ blockquote {
 
 /*M AND LESS*/
 @media (max-width: 991px) {
-    .post_header,
-    .post_content,
-    .post_footer {
-        padding: 0 50px;
-        /*max-width: 650px;*/
-        margin-top: 50px;
-    }
-    .post_footer {
-        top: -80px;
-    }
     body {
         padding: 15px;
     }
+    .post {
+        /*margin-top: 60px;*/
+    }
+
+    .post_header,
+    .post_content,
+    .post_footer {
+    padding: 0 50px;
+}
+
     .article_content_wrap {
         position: static;
     }
@@ -1040,10 +1042,6 @@ blockquote {
         clear: left;
         margin-top: 20px;
     }
-        .video_hash_tag_container {
-            margin-top: 40px;
-        }
-
     .post .quote_post_content {
         padding-bottom: 1px;
     }
@@ -1064,6 +1062,10 @@ blockquote {
     .input_email{
         margin-left: 0;
     }
+    #input_email:focus + .validation_message,
+    #input_email:focus:valid + .validation_message {
+        display: none;
+    }
     .slider_left,
     .slider_right {
         top: 0;
@@ -1071,6 +1073,9 @@ blockquote {
         right: 0;
         height: 0;
         z-index: 0;
+    }
+    .slider_top {
+        box-shadow: none;
     }
 }
 
@@ -1080,8 +1085,6 @@ blockquote {
     .post_content,
     .post_footer {
         padding: 0 25px;
-        /*max-width: 650px;*/
-        margin-top: 25px;
     }
     body {
         padding: 5px;

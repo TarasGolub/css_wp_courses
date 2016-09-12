@@ -1115,7 +1115,9 @@ blockquote {
 }
 /*XL ONLY*/
 @media (min-width: 1200px) {
-
+    .post {
+        float: none;
+    }
 }
 
 /*L ONLY*/

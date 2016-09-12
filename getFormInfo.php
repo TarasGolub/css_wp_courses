@@ -5,6 +5,7 @@
         <article class=" post contact_form">
             <div class="post_content">
                 <?php
+//                    setlocale( LC_ALL , " ru_RU ");
                     $name = trim($_REQUEST['input_name']);
                     $email = trim($_REQUEST['input_email']);
                     $facebook = trim($_REQUEST['input_facebook']);
@@ -12,9 +13,9 @@
                     $message = trim($_REQUEST['input_message']);
                     $nameDuble = $name;
 
-            //        if (mb_strtoupper(substr($name, 0, 1), 'utf-8') != substr($name, 0, 1)) {
-            //            $name = mb_strtoupper(substr($name, 0, 1), 'utf-8') . substr($name, 1);
-            //        }
+//                    if (mb_strtoupper(substr($name, 0, 1), 'utf-8') != substr($name, 0, 1)) {
+//                        $name = mb_strtoupper(substr($name, 0, 1), 'utf-8') . substr($name, 1);
+//                    }
 
                     if (strpos($facebook, 'facebook.com') === false) {
                         $facebook = 'http://facebook.com/'.$facebook;

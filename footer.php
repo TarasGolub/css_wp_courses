@@ -1,7 +1,5 @@
-<!--all_page_wrap-->
-</div>
-<!--main_container-->
-</div>
+</div> <!--all_page_wrap-->
+</div> <!--main_container-->
 <footer class="page_footer" id="page_footer">
     <div class="container">
         <div class="logo footer_logo">
@@ -82,3 +80,4 @@
     </script>
 <script src="public/js/slider.js"></script>
 </body>
+</html>

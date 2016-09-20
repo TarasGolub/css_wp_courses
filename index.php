@@ -162,9 +162,11 @@
 <!--                    </header>-->
                 <div class="post_content quote_post_content">
                     <blockquote class="quote">
-                        There is always something left to love.
-                        And if you ain’t learned that, you
-                        ain’t learned nothing.
+                        <h2>
+                            There is always something left to love.
+                            And if you ain’t learned that, you
+                            ain’t learned nothing.
+                        </h2>
                     </blockquote>
                 </div>
             </div>
@@ -212,18 +214,23 @@
         </article>
 
         <article class="post slider_post col">
+<!--            slider.js works with this slider-->
             <figure id="slider" class="post_image slider">
-                <img src="public/images/img_1.jpg" alt="gallery" title="gallery"
-                     class="no_padd slider_left">
-                <img src="public/images/img_3.jpg" alt="gallery" title="gallery"
-                     class="no_padd slider_right">
-                <img src="public/images/img_5_1.jpg" alt="gallery" title="gallery"
-                     class="no_padd slider_top">
-                <div class="slider_pointer_container">
-                    <div class="slider_pointer slider_pointer_left"></div>
-                    <div class="slider_pointer slider_pointer_middle slider_pointer_current"></div>
-                    <div class="slider_pointer slider_pointer_right"></div>
-                </div>
+                <img src="public/images/img_1.jpg" alt="slider" title="slider"
+                     class="slider_img">
+                <img src="public/images/img_3.jpg" alt="slider" title="slider"
+                     class="slider_img">
+                <img src="public/images/img_5_1.jpg" alt="slider" title="slider"
+                     class="slider_img">
+                <img src="public/images/slider_1.jpg" alt="slider" title="slider"
+                     class="slider_img">
+                <img src="public/images/slider_2.jpg" alt="slider" title="slider"
+                     class="slider_img">
+<!--                <div class="slider_pointer_container">-->
+<!--                    <div class="slider_pointer slider_pointer_left"></div>-->
+<!--                    <div class="slider_pointer slider_pointer_middle slider_pointer_current"></div>-->
+<!--                    <div class="slider_pointer slider_pointer_right"></div>-->
+<!--                </div>-->
             </figure>
             <div class="article_content_wrap">
                 <div class="i_do">
